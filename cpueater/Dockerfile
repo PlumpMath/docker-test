@@ -1,3 +1,3 @@
-FROM scratch
+FROM mvollmer/scratch
 ADD eat /eat
 ENTRYPOINT ["/eat"]
